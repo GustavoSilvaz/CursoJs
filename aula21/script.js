@@ -1,0 +1,5 @@
+const n1 = prompt(`Digite o primeiro número: `)
+const n2 = prompt(`Digite o segundo número: `)
+let con1 = Number(n1)
+let con2 = Number(n2)
+console.log(`a some entre ${n1} e ${n2} é igual a ${con1+con2}`)
