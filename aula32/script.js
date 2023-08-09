@@ -17,4 +17,7 @@ function criauser (nome, sobrenome, idade) {
 }
 
 const pessoa1 = criauser('Gustavo','Silva',21);
+
 console.log(pessoa1.nome);
+
+aaaa
