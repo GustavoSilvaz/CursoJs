@@ -1,1 +1,1 @@
-console.log(1 && 0 && `Maria`);
+console.log(`Luiz` && 0 && `Maria`);
