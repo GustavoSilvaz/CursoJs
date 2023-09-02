@@ -57,3 +57,8 @@ form button {
 form button:hover {
     background-color: var(--color02);
 }
+
+.paragrafo-resultado {
+    background-color: #81ffb6;
+    padding: 10px 20px;
+}
