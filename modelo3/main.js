@@ -18,9 +18,10 @@ function iniciaRelogio() {
         segundos++;
         relogio.innerHTML=getTimeFromSeconds(segundos);
     }, 1000);
-}
+};
 
 iniciar.addEventListener('click', function(event){
+    clear
     iniciaRelogio();
 });
 
