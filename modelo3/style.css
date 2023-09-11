@@ -1,0 +1,18 @@
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+section {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.relogio {
+    font-size: 3em;
+}
