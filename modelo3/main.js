@@ -14,24 +14,31 @@ let segundos = 0;
 let timer;
 
 function iniciaRelogio() {
-    const timer = setInterval(function () {
+     timer = setInterval(function () {
         segundos++;
         relogio.innerHTML=getTimeFromSeconds(segundos);
     }, 1000);
 };
 
 iniciar.addEventListener('click', function(event){
-    clear
+    relogio.classList.remove('pausado');
+    clearInterval(timer);
     iniciaRelogio();
 });
 
+document.addEventListener('click', function(e) {
+    console.log(e.target)
+})
+
 pausar.addEventListener('click', function(event){
     clearInterval(timer);
+    relogio.classList.add('pausado')
 });
 
 zerar.addEventListener('click', function(event){
     clearInterval(timer);
     relogio.innerHTML='00:00:00';
+    segundos = 0;
 });
 
 
