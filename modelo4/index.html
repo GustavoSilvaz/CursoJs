@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,14 @@
     <section class="container">
         <h1>Lista de tarefas</h1>
 
-        <div class="lista">
-            <input type="text" name="list" id="list">
-            <button type="submit">Adicionar tarefa</button>
+        
+       
+        <div class="Listas">
+            <form action="enviar">
+                <input type="text" id="lista" name="lista">
+                <button type="submit" value="Enviar" onclick="criar()">Enviar</button>
+            </form>
+
         </div>
     </section>
     <script src="main.js"></script>
